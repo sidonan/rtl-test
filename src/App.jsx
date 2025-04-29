@@ -1,7 +1,12 @@
-import "./App.css";
+import React from "react";
+import { FeedbackForm } from "./FeedbackForm"; // путь до компонента
 
 function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <div>
+      <FeedbackForm />
+    </div>
+  );
 }
 
 export default App;
